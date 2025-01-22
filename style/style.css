@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 5px 10px 5px 10px;
+}
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+}
+/* share style */
+
+.display-flax{
+    display: flex;
+}
+
+
+/* header style */
+
+
+/* navbar related style */
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-links{
+    text-decoration: none;
+    font-weight: 96;
+}
+a{
+    text-decoration: none;
+}
+/* color section */
+.nav-link1{
+    color:chocolate;
+}
+.nav-link2{
+    color: rgb(25, 239, 243);
+}
+.nav-link3{
+color: rgb(152, 195, 195);
+}
+.nav-link4{
+    color: blueviolet;
+}
+
+.navbar{
+    justify-content: space-evenly;
+}
+
+.bg-ground{
+     background-color: white;
+}
+/* btn */
+.btn-primary{
+    background-color: salmon;
+    border-radius: 5px;
+    width: 197px;
+    height: 50px;
+    color: white;
+}
+.btn-secendary{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 130px;
+    height: 40px;
+
+}
+
+.btn-1{
+    color: aqua;
+}
+.btn-2{
+    color: rgb(220, 139, 32);
+
+}
+.btn-3{
+    color: #8664b2;
+}
+.btn-4{
+    background-color:orange;
+    border-radius: 50%;
+    font-size: 30px;
+    color: white;
+}
+.btn-5{
+    background-color: orange;
+    border-radius: 50%;
+    font-size: 30px;
+    color: white;
+}
+.site-btn{
+    text-align: center;
+    margin-top: 30px;
+}
+/* banner */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px 0 150px;
+}
+.banner-contain{
+    max-width: 580px;
+    margin-top: 60px;
+}
+.banner-title{
+    font-size: 50px;
+    font-weight: 800;
+}
+#Empowering{
+    color: sandybrown;
+}
+#age{
+    color: rgba(90, 90, 193, 0.882);
+}
+.banner-description{
+    font-size: 20px;
+}
+/* Curriculum style */
+
+.Curriculums{
+    background-image: url('../assets/bg.png');
+    margin-top: 50px;
+}
+.Curriculums-title{
+    text-align: center;
+    font-size: 46px;
+    font-weight: 800;
+}
+
+
+.Curriculum-container{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    margin-top: 30px;
+   
+}
+.curriculum{
+    
+    border-radius: 10px;
+    box-shadow: 0px 6px 50px 0px lightgray
+}
+#Curriculums-1{
+    background-image: linear-gradient(#DEF5FF,#ffffff);
+
+}
+#Curriculums-2{
+    background-image: linear-gradient(#FFF4DC,white) ;
+}
+#Curriculums-3{
+    background-image: linear-gradient(#8e5dce,white);
+}
+
+
+.curriculum-description{
+    padding: 30px 20px 20px 25px;
+    text-align: center;
+}
+
+@media screen and(max-width:576px) {
+    .Curriculum-container{
+        flex-direction: column ;
+    }
+
+    
+}
